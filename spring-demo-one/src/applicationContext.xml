@@ -10,11 +10,18 @@
     <!-- Define your beans here -->
     <bean id = "myCoach" 
     	class = "com.warmup.TrackCoach">
-    	
-    	<constructor-arg ref = "myFortune" />
+    	<!-- constructor injection -->
+    	<constructor-arg ref = "myFortuneService" />
     </bean>
-    <bean id = "myFortune" 
+    <bean id = "myFortuneService" 
     	class = "com.warmup.HappyFortuneService">
+    </bean>
+    <bean id = "myCricketCoach" 
+    	class = "com.warmup.CricketCoach">
+    	<!-- setter di -->
+    	<property name="fortuneService" ref = "myFortuneService" />
+    	<property name="emailAddress" value = "my email address:dfl@dfd.com" />
+    	<property name="team" value = "team 1" />
     </bean>
 </beans>
 

@@ -4,6 +4,7 @@ public class TrackCoach implements Coach {
 
 	private FortuneService fortuneService;
 	
+	//	Constructor dependency injection
 	public TrackCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
