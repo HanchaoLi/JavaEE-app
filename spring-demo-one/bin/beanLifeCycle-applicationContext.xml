@@ -8,13 +8,11 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <!-- Define your beans here , default is singleton, 
-    if prototype, it will create new instance each time invoke
-    remember, spring does not call the destroy method
-    -->
+    <!-- Define your beans here , default is singleton, if prototype, it will create new instance each time invoke-->
     <bean id = "myCoach" 
     	class = "com.warmup.TrackCoach"
-    	scope = "prototype">
+    	init-method = "doMyStartup"
+    	destroy-method = "doDestroy">
     	<!-- constructor injection -->
     	<constructor-arg ref = "myFortuneService" />
     </bean>

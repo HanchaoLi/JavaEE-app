@@ -12,7 +12,7 @@ public class TrackCoach implements Coach {
 	@Override
 	public String getDailyWorkout() {
 		// TODO Auto-generated method stub
-		return "sfs";
+		return "daily workout";
 	}
 
 	@Override
@@ -20,5 +20,11 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return "I got" + fortuneService.getFortune();
 	}
-
+	// add init method and destroy method
+	public void doMyStartup() {
+		System.out.println("track coach init");
+	}
+	public void doDestroy() {
+		System.out.println("track coach destroy");
+	}
 }
