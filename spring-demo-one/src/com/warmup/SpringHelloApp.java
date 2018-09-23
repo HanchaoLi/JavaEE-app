@@ -12,7 +12,7 @@ public class SpringHelloApp {
 		
 		theCoach.getDailyWorkout();
 		
-		theCoach.getFortune();
+		System.out.println(theCoach.getFortune());
 		
 		context.close();
 	}
