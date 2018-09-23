@@ -13,7 +13,7 @@ public class SetterDemoApp {
 		thecoach.getFortune();
 		
 		System.out.println(thecoach.getEmailAddress());
-		thecoach.getTeam();
+		System.out.println(thecoach.getTeam());
 		
 		context.close();
 	}
