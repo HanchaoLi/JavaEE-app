@@ -9,12 +9,21 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach{
 	
 	private FortuneService fortuneService;
-	
+	//	constructor di
+	/*
 	@Autowired
 	public TennisCoach(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
-	
+	*/
+	public TennisCoach() {
+		
+	}
+	//	setter di
+	@Autowired
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
 	@Override
 	public String getDailyWorkout() {
 		// TODO Auto-generated method stub
