@@ -18,6 +18,9 @@ public class AnnotationDemoApp {
 		//  call a method
 		coach.getDailyWorkout();
 		
+		//  get daily fortune
+		coach.getDailyFortune();
+		
 		//  close context
 		context.close();
 	}
