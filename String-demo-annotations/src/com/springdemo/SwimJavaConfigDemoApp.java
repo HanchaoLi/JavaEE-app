@@ -15,13 +15,17 @@ public class SwimJavaConfigDemoApp {
 		//Coach coach = context.getBean("theSillyCoach", TennisCoach.class);
 		
 		//get tennis by default id
-		Coach coach = context.getBean("swimCoach", SwimCoach.class);
+		SwimCoach coach = context.getBean("swimCoach", SwimCoach.class);
 		
 		//  call a method
 		coach.getDailyWorkout();
 		
 		//  get daily fortune
 		coach.getDailyFortune();
+		
+		coach.getEmail();
+		
+		coach.getTeam();
 		
 		//  close context
 		context.close();

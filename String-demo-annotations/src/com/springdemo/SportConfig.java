@@ -1,14 +1,20 @@
 package com.springdemo;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("com.springdemo")
+// if not comment component scan and use property source, will cause error
+//@ComponentScan("com.springdemo")
+@PropertySource("classpath:sport.properties")
 public class SportConfig {
-	// define bean for our sad fortune service
 	
+	
+	
+	// define bean for our sad fortune service
 	@Bean
 	public FortuneService sadFortuneSerivce() {
 		return new SadFortuneService();
