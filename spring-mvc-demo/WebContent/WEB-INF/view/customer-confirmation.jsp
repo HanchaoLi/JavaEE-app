@@ -5,6 +5,8 @@
 <title>Customer Confirmation</title>
 </head>
 <body>
-	firstname: ${customer.firstName} and ${customer.lastName}
+	firstname: ${customer.firstName} and lastname ${customer.lastName} 
+	<br>
+	freepass: ${customer.freePasses}
 </body>
 </html>
