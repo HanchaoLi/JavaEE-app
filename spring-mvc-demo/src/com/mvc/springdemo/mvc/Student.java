@@ -8,6 +8,8 @@ public class Student {
 	private String lastName;
 	private String country;
 	private LinkedHashMap<String, String> countryOptions;
+	private String favoriteLanguage;
+
 	public Student() {
 		
 		countryOptions = new LinkedHashMap<>();
@@ -15,7 +17,13 @@ public class Student {
 		countryOptions.put("FR", "France");
 		countryOptions.put("CN", "China");
 	}
-	
+	public String getFavoriteLanguage() {
+		return favoriteLanguage;
+	}
+
+	public void setFavoriteLanguage(String favoriteLanguage) {
+		this.favoriteLanguage = favoriteLanguage;
+	}
 	public LinkedHashMap<String, String> getCountryOptions() {
 		return countryOptions;
 	}

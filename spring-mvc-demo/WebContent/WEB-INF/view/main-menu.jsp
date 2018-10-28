@@ -10,5 +10,9 @@
 Hello yo!
 <br>
 <a href = "hello/showForm"> Hello world form</a>
+<br>
+<a href = "student/showForm">student form</a>
+<br>
+<a href = "customer/showForm"> customer form</a>
 </body>
 </html>

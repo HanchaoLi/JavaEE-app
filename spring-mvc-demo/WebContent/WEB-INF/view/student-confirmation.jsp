@@ -12,7 +12,10 @@
 
 The student is confirmed: ${student.firstName} ${student.lastName} from : ${student.country}
 <br>
-<a href = "showForm"> Hello world form</a>
+
+favorite ${student.favoriteLanguage}
+
+<a href = "showForm"> Student form</a>
 <br>
 <a href = "/spring-mvc-demo/hello/showForm"> Hello world form</a>
 </body>
