@@ -25,6 +25,12 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- hot deploy config -->
+        <dependency>  
+		     <groupId>org.springframework.boot</groupId>  
+		     <artifactId>spring-boot-devtools</artifactId>  
+		     <optional>true</optional>  
+		 </dependency>
     </dependencies>
     <!-- this plugin used to pack to jar  -->
     <build>

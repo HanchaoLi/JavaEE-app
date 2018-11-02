@@ -5,6 +5,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import net.xdclass.demo.entity.ServerSettings;
 import net.xdclass.demo.entity.User;
 
 @RestController
@@ -21,15 +23,15 @@ public class GetController {
 
 	private Map<String, Object> params = new HashMap<>();
 	
-	@RequestMapping(path = "/{city_id}/{user_id}", method = RequestMethod.GET)
-	public Object findUser(@PathVariable("city_id") String cityId,
-			@PathVariable("user_id") String userId) {
-		params.clear();
-		params.put("cityId", cityId);
-		params.put("userId", userId);
-		
-		return params;
-	}
+//	@RequestMapping(path = "/{city_id}/{user_id}", method = RequestMethod.GET)
+//	public Object findUser(@PathVariable("city_id") String cityId,
+//			@PathVariable("user_id") String userId) {
+//		params.clear();
+//		params.put("cityId", cityId);
+//		params.put("userId", userId);
+//		
+//		return params;
+//	}
 	
 	@GetMapping(value = "/v1/page_user1")
 	public Object pageUser(int from, int size) {
@@ -85,5 +87,14 @@ public class GetController {
 		String id = request.getParameter("id");
 		params.put("id", id);
 		return params;
+	}
+	
+	@Autowired
+	private ServerSettings serverSettings;
+	
+	@GetMapping("/v1/test_properties")
+	public Object testPeroperties(){
+		
+		return serverSettings;	
 	}
 }

@@ -6,6 +6,8 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,6 +23,7 @@ import net.xdclass.demo.entity.JsonData;
  * <p> 作者：小D课堂</p>
  */
 @Controller
+@PropertySource({"classpath:application.properties"})
 public class FileController {
 
 	 
@@ -34,9 +37,11 @@ public class FileController {
 	
 	
 	
-    	private static final String filePath = "E:\\j2ee\\workspace\\xdclass_springboot\\src\\main\\resources\\static\\images\\";
-   
-	
+//    	private static final String filePath = "E:\\j2ee\\workspace\\xdclass_springboot\\src\\main\\resources\\static\\images\\";
+		
+		@Value("${web.file.path}")
+		private String filePath;
+		
 	 	@RequestMapping(value = "upload")
 	    @ResponseBody
 	    public JsonData upload(@RequestParam("head_img") MultipartFile file,HttpServletRequest request) {
@@ -53,6 +58,8 @@ public class FileController {
 	        
 	        fileName = UUID.randomUUID() + suffixName;
 	        System.out.println("name after upload "+fileName);
+	        
+	        System.out.println("file path: " + filePath);
 	        
 	        File dest = new File(filePath + fileName);
 	       
