@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 //@SpringBootConfiguration
 //@EnableAutoConfiguration
 //@ComponentScan
-@Configuration
+
 public class XdclassApplication {
 
 	public static void main(String[] args) throws Exception{
