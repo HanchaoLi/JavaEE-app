@@ -19,7 +19,12 @@ import net.xdclass.demo.entity.User;
 //@RequestMapping
 //@ResponseBody
 public class SimpleController {
-
+	
+	@RequestMapping("/test/home")
+	public String home() {
+		return "xdclass";
+	}
+	
     @RequestMapping("/")
     @ResponseBody
     public String index() {

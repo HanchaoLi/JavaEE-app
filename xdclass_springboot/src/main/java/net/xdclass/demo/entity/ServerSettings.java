@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @PropertySource({"classpath:application.properties"})
 //@ConfigurationProperties
-@ConfigurationProperties
+@ConfigurationProperties("test")
 
 public class ServerSettings {
 

@@ -1,4 +1,4 @@
-package net.xdclass.demo.controller;
+package net.xdclass.demo;
 
 import javax.servlet.MultipartConfigElement;
 
