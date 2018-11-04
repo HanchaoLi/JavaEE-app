@@ -20,11 +20,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- enable reach static file directly by enter url and file name -->
+        <!-- template engine, enable reach static file directly by enter url and file name, and use custom error -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <scope>test</scope>
         </dependency>
         <!-- hot deploy config -->
         <dependency>  

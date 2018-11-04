@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * global error handler
@@ -26,4 +27,16 @@ public class CustomExtHandler {
 		map.put("url", request.getRequestURL());
 		return map;
 	}
+	
+	@ExceptionHandler(value=MyException.class)
+	Object handleMyException(MyException e,HttpServletRequest request){
+		//jump to error.html
+		ModelAndView modelAndView = new ModelAndView();
+	    modelAndView.setViewName("error.html");
+	    modelAndView.addObject("msg", e.getMessage());
+	    return modelAndView;
+		
+
+    }
+
 }
