@@ -92,9 +92,16 @@ public class GetController {
 	@Autowired
 	private ServerSettings serverSettings;
 	
-	@GetMapping("/v1/test_properties")
+	@GetMapping("/api/v1/test_properties")
 	public Object testPeroperties(){
 		
 		return serverSettings;	
+	}
+	
+	@GetMapping(value="/api/v1/account")
+	public Object account() {
+		params.clear();
+		params.put("money", "1000");
+		return params;
 	}
 }
