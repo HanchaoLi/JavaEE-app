@@ -31,4 +31,17 @@ public class XdclassApplication {
         factory.setMaxRequestSize("1024000KB");  
         return factory.createMultipartConfig();  
     }  
+	// if want to packing to war, use below code
+//	public class XdclassApplication extends SpringBootServletInitializer {
+//
+//	    @Override
+//	    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+//	        return application.sources(XdclassApplication.class);
+//	    }
+//
+//	    public static void main(String[] args) throws Exception {
+//	        SpringApplication.run(XdclassApplication.class, args);
+//	    }
+//
+//	}
 }
