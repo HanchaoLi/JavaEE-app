@@ -55,7 +55,7 @@ public class GetController {
 	 * @param user
 	 * @return
 	 */
-	@RequestMapping("v1/save_user")
+	@RequestMapping("/v1/save_user")
 	public Object saveUser(@RequestBody User user) {
 		params.clear();
 		params.put("user", user);
