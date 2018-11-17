@@ -23,12 +23,10 @@
             <scope>test</scope>
         </dependency>
         <!-- template engine, enable reach static file directly by enter url and file name, and use custom error -->
-        <!-- 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-         -->
          <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
