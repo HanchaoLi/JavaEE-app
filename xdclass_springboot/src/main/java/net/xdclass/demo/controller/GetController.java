@@ -104,4 +104,11 @@ public class GetController {
 		params.put("money", "1000");
 		return params;
 	}
+	
+	@GetMapping(value="/api2/v1/account")
+	public Object account2() {
+		params.clear();
+		params.put("money", "1000");
+		return params;
+	}
 }
