@@ -2,10 +2,17 @@ package net.xdclass.base_project.mapper;
 
 
 
-import net.xdclass.base_project.domain.User;
+import java.util.List;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Options;
+import org.apache.ibatis.annotations.Result;
+import org.apache.ibatis.annotations.Results;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
+
+import net.xdclass.base_project.domain.User;
 
 /**
  * 功能描述：访问数据库的接口
@@ -16,36 +23,27 @@ import org.apache.ibatis.annotations.Options;
  */
 public interface UserMapper {
 	
-	
 	//use #, instead of $, avoid inject attack
 	 @Insert("INSERT INTO user(name,phone,create_time,age) VALUES(#{name}, #{phone}, #{createTime},#{age})")
 	 @Options(useGeneratedKeys=true, keyProperty="id", keyColumn="id")   //keyProperty java对象的属性；keyColumn表示数据库的字段
 	 int insert(User user);
-	 
-	 
-	 
-	
-//
-//    @Select("SELECT * FROM user")
-//    @Results({
-//        @Result(column = "create_time",property = "createTime")  //javaType = java.util.Date.class        
-//    })
-//    List<User> getAll();
-//  
-//    
-//
-//    @Select("SELECT * FROM user WHERE id = #{id}")
-//    @Results({
-//    	 @Result(column = "create_time",property = "createTime")
-//    })
-//    User findById(Long id);
-//
-//   
-//
-//    @Update("UPDATE user SET name=#{name} WHERE id =#{id}")
-//    void update(User user);
-//
-//    @Delete("DELETE FROM user WHERE id =#{userId}")
-//    void delete(Long userId);
-//
+
+    @Select("SELECT * FROM user")
+    @Results({
+        @Result(column = "create_time",property = "createTime")  //javaType = java.util.Date.class        
+    })
+    List<User> getAll();
+  
+    @Select("SELECT * FROM user WHERE id = #{id}")
+    @Results({
+    	 @Result(column = "create_time",property = "createTime")
+    })
+    User findById(Long id);
+
+    @Update("UPDATE user SET name=#{name} WHERE id =#{id}")
+    void update(User user);
+
+    @Delete("DELETE FROM user WHERE id =#{userId}")
+    void delete(Long userId);
+
 }
