@@ -2,16 +2,18 @@ package net.xdclass.base_project.controller;
 
 
 import java.util.Date;
-
-import net.xdclass.base_project.domain.JsonData;
-import net.xdclass.base_project.domain.User;
-import net.xdclass.base_project.mapper.UserMapper;
-import net.xdclass.base_project.service.UserService;
+import java.util.concurrent.Future;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import net.xdclass.base_project.domain.JsonData;
+import net.xdclass.base_project.domain.User;
+import net.xdclass.base_project.mapper.UserMapper;
+import net.xdclass.base_project.service.UserService;
+import net.xdclass.base_project.task.AsyncTask;
 
 /**
  *@作者 小D课堂  小D
@@ -75,4 +77,24 @@ public class UserController {
 	    return JsonData.buildSuccess(id);
 	}
 	
+	@Autowired
+	private AsyncTask task;
+	
+	@GetMapping("test/async")
+	public JsonData async(){
+		long start = System.currentTimeMillis();
+//		task.task1();
+//		task.task2();
+//		task.task3();
+		Future<String> test4 = task.task4();
+		Future<String> test5 = task.task5();
+		for (;;) {
+			if (test4.isDone() && test5.isDone()) {
+				break;
+			}
+		}
+		long end = System.currentTimeMillis();
+		System.out.println("total time: " + (end - start));
+		return JsonData.buildSuccess("total time: " + (end - start));
+	}
 }
