@@ -1,84 +1,114 @@
-2018-11-30 22:16:23.117
-				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarting:50 -Starting XdclassApplication on DESKTOP-AGRRO4U with PID 17496 (E:\j2ee\workspace\base_project\target\classes started by Lee in E:\j2ee\workspace\base_project)
-2018-11-30 22:16:23.119
+2018-12-01 23:58:39.338
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarting:50 -Starting XdclassApplication on DESKTOP-AGRRO4U with PID 10368 (E:\j2ee\workspace\base_project\target\classes started by Lee in E:\j2ee\workspace\base_project)
+2018-12-01 23:58:39.341
 				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
-2018-11-30 22:16:23.269
-				INFO [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62dde23b: startup date [Fri Nov 30 22:16:23 EST 2018]; root of context hierarchy
-2018-11-30 22:16:26.239
+2018-12-01 23:58:39.620
+				INFO [restartedMain]o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2c9af25e: startup date [Sat Dec 01 23:58:39 EST 2018]; root of context hierarchy
+2018-12-01 23:58:41.856
 				INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-11-30 22:16:27.044
-				INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:328 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$256cc159] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-11-30 22:16:28.337
+2018-12-01 23:58:41.959
+				INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-01 23:58:41.979
+				INFO [restartedMain]o.s.d.r.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:297 -Spring Data Redis - Could not safely identify store assignment for repository candidate interface net.xdclass.base_project.repository.ArticleRepository.
+2018-12-01 23:58:42.746
+				INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:328 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebe971e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-01 23:58:43.927
 				INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 -Tomcat initialized with port(s): 8080 (http)
-2018-11-30 22:16:28.383
+2018-12-01 23:58:43.973
 				INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:180 -Initializing ProtocolHandler ["http-nio-8080"]
-2018-11-30 22:16:28.417
+2018-12-01 23:58:44.007
 				INFO [restartedMain]org.apache.catalina.core.StandardService.log:180 -Starting service [Tomcat]
-2018-11-30 22:16:28.417
+2018-12-01 23:58:44.008
 				INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:180 -Starting Servlet Engine: Apache Tomcat/8.5.29
-2018-11-30 22:16:28.436
+2018-12-01 23:58:44.043
 				INFO [localhost-startStop-1]org.apache.catalina.core.AprLifecycleListener.log:180 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/java/bin/../jre/bin/server;D:/java/bin/../jre/bin;D:/java/bin/../jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\java\bin;D:\java\jre\bin;C:\Users\Lee\AppData\Roaming\npm;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\Program Files\SASHome\Secure\ccme4;D:\Program Files\SASHome\x86\Secure\ccme4;D:\mingw/bin;D:\Program Files\erl9.1\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\maven\apache-maven-3.3.3\bin;E:\springboot\redis\;D:\python3\Scripts\;D:\python3\;C:\Users\Lee\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Lee\AppData\Local\atom\bin;C:\Users\Lee\AppData\Local\Microsoft\WindowsApps;C:\Users\Lee\AppData\Roaming\npm;D:\googleSDK\google-cloud-sdk\bin;D:\j2eephpton\eclipse;;.]
-2018-11-30 22:16:28.609
+2018-12-01 23:58:44.305
 				INFO [localhost-startStop-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 -Initializing Spring embedded WebApplicationContext
-2018-11-30 22:16:28.610
-				INFO [localhost-startStop-1]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 5341 ms
-2018-11-30 22:16:28.873
+2018-12-01 23:58:44.305
+				INFO [localhost-startStop-1]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 -Root WebApplicationContext: initialization completed in 4685 ms
+2018-12-01 23:58:44.608
 				INFO [localhost-startStop-1]o.s.boot.web.servlet.ServletRegistrationBean.addRegistration:185 -Servlet dispatcherServlet mapped to [/]
-2018-11-30 22:16:28.877
+2018-12-01 23:58:44.614
 				INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'characterEncodingFilter' to: [/*]
-2018-11-30 22:16:28.878
+2018-12-01 23:58:44.615
 				INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2018-11-30 22:16:28.878
+2018-12-01 23:58:44.615
 				INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2018-11-30 22:16:28.879
+2018-12-01 23:58:44.616
 				INFO [localhost-startStop-1]o.s.boot.web.servlet.FilterRegistrationBean.configure:244 -Mapping filter: 'requestContextFilter' to: [/*]
-2018-11-30 22:16:30.371
+2018-12-01 23:58:45.334
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:176 -no modules loaded
+2018-12-01 23:58:45.338
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:179 -loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2018-12-01 23:58:45.338
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:179 -loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018-12-01 23:58:45.339
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:179 -loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018-12-01 23:58:45.339
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:179 -loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2018-12-01 23:58:45.340
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:179 -loaded plugin [org.elasticsearch.transport.Netty3Plugin]
+2018-12-01 23:58:45.340
+				INFO [restartedMain]org.elasticsearch.plugins.PluginsService.logPluginInfo:179 -loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018-12-01 23:58:46.610
+				INFO [restartedMain]io.netty.util.internal.PlatformDependent.info:104 -Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2018-12-01 23:58:47.013
+				INFO [restartedMain]o.s.data.elasticsearch.client.TransportClientFactoryBean.buildClient:98 -adding transport node : localhost:9300
+2018-12-01 23:58:50.674
 				INFO [restartedMain]o.s.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-30 22:16:30.774
-				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62dde23b: startup date [Fri Nov 30 22:16:23 EST 2018]; root of context hierarchy
-2018-11-30 22:16:30.910
+2018-12-01 23:58:51.086
+				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2c9af25e: startup date [Sat Dec 01 23:58:39 EST 2018]; root of context hierarchy
+2018-12-01 23:58:51.270
+				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/article/save],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.ArticleController.save()
+2018-12-01 23:58:51.273
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/redis/add],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.add()
-2018-11-30 22:16:30.912
+2018-12-01 23:58:51.273
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/redis/get],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.get()
-2018-11-30 22:16:30.912
+2018-12-01 23:58:51.274
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/redis/setuser],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.setUser()
-2018-11-30 22:16:30.913
+2018-12-01 23:58:51.274
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/redis/getuser],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.getUser()
-2018-11-30 22:16:30.915
+2018-12-01 23:58:51.277
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/add],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.add()
-2018-11-30 22:16:30.917
+2018-12-01 23:58:51.277
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/update],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.update(java.lang.String,int)
-2018-11-30 22:16:30.918
-				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/transac],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.transac()
-2018-11-30 22:16:30.918
-				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/del_by_id],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.delById(long)
-2018-11-30 22:16:30.919
+2018-12-01 23:58:51.278
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/findAll],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.findAll()
-2018-11-30 22:16:30.920
-				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/test/async],methods=[GET]}" onto public net.xdclass.base_project.domain.JsonData net.xdclass.base_project.controller.UserController.async()
-2018-11-30 22:16:30.920
+2018-12-01 23:58:51.279
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/findById],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.findById(long)
-2018-11-30 22:16:30.923
+2018-12-01 23:58:51.280
+				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/transac],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.transac()
+2018-12-01 23:58:51.280
+				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/del_by_id],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.UserController.delById(long)
+2018-12-01 23:58:51.281
+				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/api/v1/user/test/async],methods=[GET]}" onto public net.xdclass.base_project.domain.JsonData net.xdclass.base_project.controller.UserController.async()
+2018-12-01 23:58:51.283
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2018-11-30 22:16:30.924
+2018-12-01 23:58:51.284
 				INFO [restartedMain]o.s.w.s.m.method.annotation.RequestMappingHandlerMapping.register:547 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-11-30 22:16:30.969
+2018-12-01 23:58:51.331
 				INFO [restartedMain]o.s.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-30 22:16:30.969
+2018-12-01 23:58:51.332
 				INFO [restartedMain]o.s.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-30 22:16:31.578
+2018-12-01 23:58:52.299
 				INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
-2018-11-30 22:16:31.620
+2018-12-01 23:58:52.343
 				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 -Registering beans for JMX exposure on startup
-2018-11-30 22:16:31.622
+2018-12-01 23:58:52.344
 				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 -Bean with name 'dataSource' has been autodetected for JMX exposure
-2018-11-30 22:16:31.629
+2018-12-01 23:58:52.350
 				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
-2018-11-30 22:16:31.669
+2018-12-01 23:58:52.412
 				INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:180 -Starting ProtocolHandler ["http-nio-8080"]
-2018-11-30 22:16:31.740
+2018-12-01 23:58:52.415
 				INFO [restartedMain]org.apache.tomcat.util.net.NioSelectorPool.log:180 -Using a shared selector for servlet write/read
-2018-11-30 22:16:31.771
+2018-12-01 23:58:52.450
 				INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:206 -Tomcat started on port(s): 8080 (http) with context path ''
-2018-11-30 22:16:31.775
-				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarted:59 -Started XdclassApplication in 10.171 seconds (JVM running for 11.693)
+2018-12-01 23:58:52.454
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarted:59 -Started XdclassApplication in 14.115 seconds (JVM running for 15.394)
+2018-12-01 23:59:16.490
+				INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-01 23:59:16.491
+				INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:494 -FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-01 23:59:16.525
+				INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:509 -FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
