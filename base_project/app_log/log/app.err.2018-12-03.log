@@ -23,3 +23,11 @@ Consider revisiting the conditions above or defining a bean of type 'org.springf
 				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{kj-aOF4KSAWZaK3wW1mo2g}{localhost}{127.0.0.1:9300}]
 2018-12-03 22:04:34.894
 				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{9axrPRKrQYK-KUiaQomW2A}{localhost}{127.0.0.1:9300}]
+2018-12-03 22:08:07.255
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{WJpLDiViQDiK6wMatvJU1Q}{localhost}{127.0.0.1:9300}]
+2018-12-03 22:10:40.853
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{4S7gxfD8Tra7tVwtUmUOpg}{localhost}{127.0.0.1:9300}]
+2018-12-03 22:18:13.740
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{29-A0pznQr2WzZqcfwyi6Q}{localhost}{127.0.0.1:9300}]
+2018-12-03 22:18:50.710
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{EfwKAyp9QIafOxppjYvHtA}{localhost}{127.0.0.1:9300}]

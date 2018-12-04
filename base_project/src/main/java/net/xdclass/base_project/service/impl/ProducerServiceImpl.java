@@ -26,6 +26,7 @@ public class ProducerServiceImpl implements ProducerInterface{
 
 	@Override
 	public void sendMessage(final String message) {
+		//this.queue is registered in application class, it is common.queue
 		jmsTemplate.convertAndSend(this.queue, message);
 	}
 

@@ -32,8 +32,7 @@ public class OrderController {
 	@GetMapping("common")
 	public Object common(String msg){
 		
-		Destination dest = new ActiveMQQueue("order.queue");
-		producerService.sendMessage(dest, msg);
+		producerService.sendMessage(msg);
        return JsonData.buildSuccess();
 	}
 }
