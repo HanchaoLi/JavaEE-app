@@ -31,3 +31,13 @@ Consider revisiting the conditions above or defining a bean of type 'org.springf
 				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{29-A0pznQr2WzZqcfwyi6Q}{localhost}{127.0.0.1:9300}]
 2018-12-03 22:18:50.710
 				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{EfwKAyp9QIafOxppjYvHtA}{localhost}{127.0.0.1:9300}]
+2018-12-03 22:20:07.132
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{Iv3E-8ltRDaX_LdNHHOFjg}{localhost}{127.0.0.1:9300}]
+2018-12-03 22:23:08.324
+				ERROR[DefaultMessageListenerContainer-1]o.s.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful:962 -Could not refresh JMS Connection for destination 'common.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-12-03 22:23:08.344
+				ERROR[DefaultMessageListenerContainer-1]o.s.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful:962 -Could not refresh JMS Connection for destination 'order.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-12-03 22:23:14.352
+				ERROR[DefaultMessageListenerContainer-1]o.s.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful:962 -Could not refresh JMS Connection for destination 'common.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-12-03 22:23:14.372
+				ERROR[DefaultMessageListenerContainer-1]o.s.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful:962 -Could not refresh JMS Connection for destination 'order.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect

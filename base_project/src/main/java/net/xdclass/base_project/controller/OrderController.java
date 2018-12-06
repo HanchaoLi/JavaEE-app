@@ -35,4 +35,11 @@ public class OrderController {
 		producerService.sendMessage(msg);
        return JsonData.buildSuccess();
 	}
+	
+	@GetMapping("topic")
+	public Object topic(String msg) {
+		this.producerService.publish(msg);
+		return JsonData.buildSuccess();
+	}
+	
 }
