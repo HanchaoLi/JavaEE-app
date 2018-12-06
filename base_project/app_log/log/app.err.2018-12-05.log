@@ -54,3 +54,7 @@
 				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{00TFKj_sSxyg3TnZsL1ckg}{localhost}{127.0.0.1:9300}]
 2018-12-05 22:05:13.153
 				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{w3cC-LxZQIuIofig77A8fw}{localhost}{127.0.0.1:9300}]
+2018-12-05 22:08:38.242
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{7KYS6ZV9Qf2wPzFU5iSnxA}{localhost}{127.0.0.1:9300}]
+2018-12-05 22:09:00.180
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{XBwZpHBvQ_CodvTgEQMvLQ}{localhost}{127.0.0.1:9300}]
