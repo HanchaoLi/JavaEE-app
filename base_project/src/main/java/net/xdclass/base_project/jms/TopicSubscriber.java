@@ -3,6 +3,10 @@ package net.xdclass.base_project.jms;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
+/**
+ * description: this is for publisher-subscriber model simulation
+ *
+ */
 @Component
 public class TopicSubscriber {
 	

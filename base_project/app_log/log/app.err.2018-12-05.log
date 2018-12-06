@@ -48,3 +48,9 @@
 				ERROR[DefaultMessageListenerContainer-1]o.s.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful:962 -Could not refresh JMS Connection for destination 'order.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
 2018-12-05 21:57:28.556
 				ERROR[DefaultMessageListenerContainer-1]o.s.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful:962 -Could not refresh JMS Connection for destination 'common.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://127.0.0.1:61616. Reason: java.net.ConnectException: Connection refused: connect
+2018-12-05 22:00:24.295
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{VFjvcNKzTYCpmIGujVSqTA}{localhost}{127.0.0.1:9300}]
+2018-12-05 22:02:39.922
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{00TFKj_sSxyg3TnZsL1ckg}{localhost}{127.0.0.1:9300}]
+2018-12-05 22:05:13.153
+				ERROR[restartedMain]o.s.d.e.r.support.AbstractElasticsearchRepository.<init>:90 -failed to load elasticsearch nodes : org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{w3cC-LxZQIuIofig77A8fw}{localhost}{127.0.0.1:9300}]
