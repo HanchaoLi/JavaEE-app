@@ -31,17 +31,17 @@ public class RedisTestController {
 		return JsonData.buildSuccess(value);
 	}
 	
-	@GetMapping(value="setuser")
-	public Object setUser() {
-		User user = new User();
-		user.setName("lee");
-		user.setAge(11);
-		user.setCreateTime(new Date());
-		user.setPhone("3243423");
-		String userstr = JsonUtils.obj2String(user);
-		redisTpl.opsForValue().set("user:11", userstr);
-		return JsonData.buildSuccess("OK");
-	}
+//	@GetMapping(value="setuser")
+//	public Object setUser() {
+//		User user = new User();
+//		user.setName("lee");
+//		user.setAge(11);
+//		user.setCreateTime(new Date());
+//		user.setPhone("3243423");
+//		String userstr = JsonUtils.obj2String(user);
+//		redisTpl.opsForValue().set("user:11", userstr);
+//		return JsonData.buildSuccess("OK");
+//	}
 	
 	@GetMapping(value="getuser")
 	public Object getUser() {

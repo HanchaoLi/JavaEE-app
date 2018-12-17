@@ -13,6 +13,15 @@ public class User {
 	private int age;
 	
 	private Date createTime;
+	
+	public User(int id, String name, String phone, int age, Date createTime) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.phone = phone;
+		this.age = age;
+		this.createTime = createTime;
+	}
 
 	public int getId() {
 		return id;
