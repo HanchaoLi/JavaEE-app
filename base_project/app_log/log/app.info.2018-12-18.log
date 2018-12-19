@@ -1,0 +1,164 @@
+2018-12-18 21:07:23.751
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarting:50 -Starting XdclassApplication on DESKTOP-AGRRO4U with PID 196 (E:\j2ee\workspace\base_project\target\classes started by Lee in E:\j2ee\workspace\base_project)
+2018-12-18 21:07:23.753
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2018-12-18 21:07:23.869
+				INFO [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@d5df824: startup date [Tue Dec 18 21:07:23 EST 2018]; root of context hierarchy
+2018-12-18 21:07:25.755
+				INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-18 21:07:25.806
+				INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-18 21:07:26.942
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/order],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.OrderController.order(java.lang.String)
+2018-12-18 21:07:26.943
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/topic],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.OrderController.topic(java.lang.String)
+2018-12-18 21:07:26.944
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/common],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.OrderController.common(java.lang.String)
+2018-12-18 21:07:26.946
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/redis/add],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.add()
+2018-12-18 21:07:26.946
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/redis/get],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.get()
+2018-12-18 21:07:26.947
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/redis/getuser],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.getUser()
+2018-12-18 21:07:26.950
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/delete],methods=[GET]}" onto public reactor.core.publisher.Mono<net.xdclass.base_project.domain.User> net.xdclass.base_project.controller.UserController.delete(java.lang.String)
+2018-12-18 21:07:26.951
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/find],methods=[GET]}" onto public reactor.core.publisher.Mono<net.xdclass.base_project.domain.User> net.xdclass.base_project.controller.UserController.findById(java.lang.String)
+2018-12-18 21:07:26.952
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/getAll],methods=[GET],produces=[application/stream+json]}" onto public reactor.core.publisher.Flux<net.xdclass.base_project.domain.User> net.xdclass.base_project.controller.UserController.getAll()
+2018-12-18 21:07:26.952
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/hello],methods=[GET]}" onto public reactor.core.publisher.Mono<java.lang.String> net.xdclass.base_project.controller.UserController.hello()
+2018-12-18 21:07:27.101
+				INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-12-18 21:07:27.101
+				INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-12-18 21:07:27.284
+				INFO [restartedMain]o.s.w.r.r.method.annotation.ControllerMethodResolver.initControllerAdviceCaches:181 -Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@d5df824: startup date [Tue Dec 18 21:07:23 EST 2018]; root of context hierarchy
+2018-12-18 21:07:30.047
+				INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2018-12-18 21:07:30.095
+				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 -Registering beans for JMX exposure on startup
+2018-12-18 21:07:30.097
+				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-18 21:07:30.103
+				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-18 21:07:30.123
+				INFO [restartedMain]o.s.context.support.DefaultLifecycleProcessor.start:351 -Starting beans in phase 2147483647
+2018-12-18 21:07:30.310
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:683 -Using Persistence Adapter: MemoryPersistenceAdapter
+2018-12-18 21:07:30.388
+				INFO [JMX connector]org.apache.activemq.broker.jmx.ManagementContext.run:156 -JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2018-12-18 21:07:30.529
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartBroker:746 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:1) is starting
+2018-12-18 21:07:30.537
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartBroker:773 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:1) started
+2018-12-18 21:07:30.537
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartBroker:774 -For help or more information please see: http://activemq.apache.org
+2018-12-18 21:07:30.542
+				WARN [restartedMain]org.apache.activemq.broker.BrokerService.checkUsageLimit:2141 -Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\j2ee\workspace\base_project only has 14736 mb of usable space. - resetting to maximum available disk space: 14736 mb
+2018-12-18 21:07:30.589
+				INFO [restartedMain]org.apache.activemq.broker.TransportConnector.start:263 -Connector vm://localhost started
+2018-12-18 21:07:31.246
+				INFO [reactor-http-nio-1]reactor.ipc.netty.tcp.BlockingNettyContext.info:238 -Started HttpServer on /0:0:0:0:0:0:0:0:8080
+2018-12-18 21:07:31.247
+				INFO [restartedMain]o.springframework.boot.web.embedded.netty.NettyWebServer.start:83 -Netty started on port(s): 8080
+2018-12-18 21:07:31.252
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarted:59 -Started XdclassApplication in 8.608 seconds (JVM running for 10.04)
+2018-12-18 21:10:47.114
+				WARN [reactor-http-nio-6]o.s.b.a.w.reactive.error.DefaultErrorWebExceptionHandler.log:212 -Failed to handle request [DELETE http://localhost:8080/api/v1/user/find?id=1]: Response status 405 with reason "Request method 'DELETE' not supported"
+2018-12-18 21:11:14.847
+				WARN [reactor-http-nio-8]o.s.b.a.w.reactive.error.DefaultErrorWebExceptionHandler.log:212 -Failed to handle request [DELETE http://localhost:8080/api/v1/user/find?id=1]: Response status 405 with reason "Request method 'DELETE' not supported"
+2018-12-18 21:11:30.640
+				WARN [reactor-http-nio-1]o.s.b.a.w.reactive.error.DefaultErrorWebExceptionHandler.log:212 -Failed to handle request [DELETE http://localhost:8080/api/v1/user/find?id=1]: Response status 405 with reason "Request method 'DELETE' not supported"
+2018-12-18 21:11:51.138
+				WARN [reactor-http-nio-2]o.s.b.a.w.reactive.error.DefaultErrorWebExceptionHandler.log:212 -Failed to handle request [DELETE http://localhost:8080/api/v1/user/find?id=2]: Response status 405 with reason "Request method 'DELETE' not supported"
+2018-12-18 21:12:08.472
+				WARN [reactor-http-nio-3]o.s.b.a.w.reactive.error.DefaultErrorWebExceptionHandler.log:212 -Failed to handle request [DELETE http://localhost:8080/api/v1/user/delete?id=2]: Response status 405 with reason "Request method 'DELETE' not supported"
+2018-12-18 21:12:41.563
+				WARN [reactor-http-nio-5]o.s.b.a.w.reactive.error.DefaultErrorWebExceptionHandler.log:212 -Failed to handle request [DELETE http://localhost:8080/api/v1/user/delete?id=2]: Response status 405 with reason "Request method 'DELETE' not supported"
+2018-12-18 21:13:39.844
+				INFO [Thread-15]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.doClose:993 -Closing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@d5df824: startup date [Tue Dec 18 21:07:23 EST 2018]; root of context hierarchy
+2018-12-18 21:13:39.846
+				INFO [Thread-15]o.s.context.support.DefaultLifecycleProcessor.stop:366 -Stopping beans in phase 2147483647
+2018-12-18 21:13:39.973
+				INFO [Thread-15]o.s.jmx.export.annotation.AnnotationMBeanExporter.destroy:451 -Unregistering JMX-exposed beans on shutdown
+2018-12-18 21:13:39.974
+				INFO [Thread-15]o.s.jmx.export.annotation.AnnotationMBeanExporter.unregisterBeans:183 -Unregistering JMX-exposed beans
+2018-12-18 21:13:40.055
+				INFO [Thread-15]org.apache.activemq.broker.TransportConnector.stop:294 -Connector vm://localhost stopped
+2018-12-18 21:13:40.056
+				INFO [Thread-15]org.apache.activemq.broker.BrokerService.stop:836 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:1) is shutting down
+2018-12-18 21:13:40.079
+				INFO [Thread-15]org.apache.activemq.broker.BrokerService.stop:896 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:1) uptime 6 minutes
+2018-12-18 21:13:40.079
+				INFO [Thread-15]org.apache.activemq.broker.BrokerService.stop:898 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:1) is shutdown
+2018-12-18 21:13:40.119
+				INFO [Thread-15]reactor.ipc.netty.tcp.BlockingNettyContext.info:238 -Stopped HttpServer on /0:0:0:0:0:0:0:0:8080
+2018-12-18 21:13:40.358
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarting:50 -Starting XdclassApplication on DESKTOP-AGRRO4U with PID 196 (E:\j2ee\workspace\base_project\target\classes started by Lee in E:\j2ee\workspace\base_project)
+2018-12-18 21:13:40.359
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2018-12-18 21:13:40.362
+				INFO [restartedMain]o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext.prepareRefresh:590 -Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@55e4d928: startup date [Tue Dec 18 21:13:40 EST 2018]; root of context hierarchy
+2018-12-18 21:13:40.672
+				INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-18 21:13:40.684
+				INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:163 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-18 21:13:40.833
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/order],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.OrderController.order(java.lang.String)
+2018-12-18 21:13:40.833
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/topic],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.OrderController.topic(java.lang.String)
+2018-12-18 21:13:40.834
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/common],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.OrderController.common(java.lang.String)
+2018-12-18 21:13:40.837
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/redis/add],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.add()
+2018-12-18 21:13:40.837
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/redis/get],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.get()
+2018-12-18 21:13:40.838
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/redis/getuser],methods=[GET]}" onto public java.lang.Object net.xdclass.base_project.controller.RedisTestController.getUser()
+2018-12-18 21:13:40.842
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/delete],methods=[DELETE]}" onto public reactor.core.publisher.Mono<net.xdclass.base_project.domain.User> net.xdclass.base_project.controller.UserController.delete(java.lang.String)
+2018-12-18 21:13:40.843
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/find],methods=[GET]}" onto public reactor.core.publisher.Mono<net.xdclass.base_project.domain.User> net.xdclass.base_project.controller.UserController.findById(java.lang.String)
+2018-12-18 21:13:40.843
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/getAll],methods=[GET],produces=[application/stream+json]}" onto public reactor.core.publisher.Flux<net.xdclass.base_project.domain.User> net.xdclass.base_project.controller.UserController.getAll()
+2018-12-18 21:13:40.844
+				INFO [restartedMain]o.s.w.r.r.method.annotation.RequestMappingHandlerMapping.register:468 -Mapped "{[/api/v1/user/hello],methods=[GET]}" onto public reactor.core.publisher.Mono<java.lang.String> net.xdclass.base_project.controller.UserController.hello()
+2018-12-18 21:13:40.860
+				INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-12-18 21:13:40.861
+				INFO [restartedMain]o.s.web.reactive.handler.SimpleUrlHandlerMapping.registerHandler:211 -Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2018-12-18 21:13:40.894
+				INFO [restartedMain]o.s.w.r.r.method.annotation.ControllerMethodResolver.initControllerAdviceCaches:181 -Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@55e4d928: startup date [Tue Dec 18 21:13:40 EST 2018]; root of context hierarchy
+2018-12-18 21:13:41.224
+				INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2018-12-18 21:13:41.237
+				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 -Registering beans for JMX exposure on startup
+2018-12-18 21:13:41.238
+				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-18 21:13:41.241
+				INFO [restartedMain]o.s.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-18 21:13:41.243
+				INFO [restartedMain]o.s.context.support.DefaultLifecycleProcessor.start:351 -Starting beans in phase 2147483647
+2018-12-18 21:13:41.248
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter:683 -Using Persistence Adapter: MemoryPersistenceAdapter
+2018-12-18 21:13:41.250
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartBroker:746 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:2) is starting
+2018-12-18 21:13:41.254
+				INFO [JMX connector]org.apache.activemq.broker.jmx.ManagementContext.run:156 -JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2018-12-18 21:13:41.255
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartBroker:773 -Apache ActiveMQ 5.15.3 (localhost, ID:DESKTOP-AGRRO4U-56241-1545185250361-0:2) started
+2018-12-18 21:13:41.256
+				INFO [restartedMain]org.apache.activemq.broker.BrokerService.doStartBroker:774 -For help or more information please see: http://activemq.apache.org
+2018-12-18 21:13:41.258
+				WARN [restartedMain]org.apache.activemq.broker.BrokerService.checkUsageLimit:2141 -Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: E:\j2ee\workspace\base_project only has 14736 mb of usable space. - resetting to maximum available disk space: 14736 mb
+2018-12-18 21:13:41.260
+				INFO [restartedMain]org.apache.activemq.broker.TransportConnector.start:263 -Connector vm://localhost started
+2018-12-18 21:13:41.288
+				INFO [reactor-http-nio-1]reactor.ipc.netty.tcp.BlockingNettyContext.info:238 -Started HttpServer on /0:0:0:0:0:0:0:0:8080
+2018-12-18 21:13:41.289
+				INFO [restartedMain]o.springframework.boot.web.embedded.netty.NettyWebServer.start:83 -Netty started on port(s): 8080
+2018-12-18 21:13:41.290
+				INFO [restartedMain]net.xdclass.base_project.XdclassApplication.logStarted:59 -Started XdclassApplication in 0.97 seconds (JVM running for 380.079)
+2018-12-18 21:13:41.294
+				INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 -Condition evaluation unchanged

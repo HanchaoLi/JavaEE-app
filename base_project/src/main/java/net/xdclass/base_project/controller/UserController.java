@@ -7,6 +7,7 @@ import java.util.concurrent.Future;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -54,7 +55,7 @@ public class UserController {
 		return userService.getAllUsers().delayElements(Duration.ofMillis(300));
 	}
 	
-	@GetMapping("delete")
+	@DeleteMapping("delete")
 	public Mono<User> delete(final String id){
 		return userService.deleteById(id);
 	}
