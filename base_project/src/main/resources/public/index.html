@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type="text/javascript">
+		
+		var source = new EventSource("api/v1/sse/get_data");
+		source.onmessage = function (event) {
+			console.info(event.data);
+			document.getElementById('result').innerText = event.data
+		}
+		
+		</script>
+	</head>
+	<body>
+		stock price</br>
+		<div>lee stock net</div>
+		<div id = "result"></div>
+	</body>
+</html>
